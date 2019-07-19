@@ -12,13 +12,13 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
 
         String bootstrapServers = "localhost:9092";
-        String groupId = "java-consumer-app";
+        String groupId = "java-consumer-app-2";
         String topicToSubscribe = "first_topic";
 
         Properties properties = new Properties();
